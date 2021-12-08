@@ -132,7 +132,7 @@ public static String Encrypt(String text, int shift)
 				else if (Character.isLowerCase(charr))
 				{
 					char ch = (char)(charr - shift);
-					if(ch > 'a')
+					if(ch < 'a')
 						decryptedText += (char)(charr + (26 - shift));
 					
 					else

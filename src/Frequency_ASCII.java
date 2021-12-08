@@ -1,7 +1,7 @@
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Aufgabe_2 {
+public class Frequency_ASCII {
     public static void main(String[] args) throws IOException {
     int[] counter = new int[26];
     for(int i=0; i<26; i++) {
