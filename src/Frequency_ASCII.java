@@ -8,7 +8,7 @@ public class Frequency_ASCII {
         counter[i]=0;
     }
 
-    FileReader read = new FileReader("Output_Encrypted.txt");
+    FileReader read = new FileReader("Output_Decrypted.txt");
     
 
     char[] buff = new char[1024];
